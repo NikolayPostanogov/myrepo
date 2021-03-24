@@ -7,9 +7,7 @@
 </HEAD>
 
 <BODY>
-
 <?php
-
 $array = array("abcd", "bar", "abcde", "abcdef", "abc", "abasd");
 $pref = "abcd";
 
@@ -31,15 +29,12 @@ function foo($pref, $array){
 	    return $arr;
 	}
 }
-
 echo "Массив: ";
 printing($array);
 echo "Префикс: $pref; ";
 echo "Результат: ";
 printing(foo($pref, $array));
-
 ?>
 
 </BODY>
-
 </HTML>
