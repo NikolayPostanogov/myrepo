@@ -12,7 +12,6 @@ function foo($n, $m){
     }
     return $kol;
 }
-
 $kol = foo($hips, $smus);
 if(is_numeric($kol)){
 	echo "Количество смузи доставшееся каждому хипстеру: $kol";
